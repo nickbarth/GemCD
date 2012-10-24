@@ -1,4 +1,5 @@
 require 'gemcd/version'
+require 'rubygems/command_manager'
+require 'rubygems/commands/cd'
 
-class GemCd
-end
+Gem::CommandManager.instance.register_command :open
