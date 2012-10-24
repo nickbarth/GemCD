@@ -8,7 +8,7 @@ Here is how to use GemCD.
 
     [/www]$ gem install gemcd
     [/www]$ gem cd gemcd
-    [/usr/local/lib/ruby/gems/1.9.1/gems/gemcd-0.0.8]$ exit
+    [/usr/local/lib/ruby/gems/1.9.1/gems/gemcd-1.0.0]$ exit
     [/www]$
 
 Here is how to use it on Windows.
