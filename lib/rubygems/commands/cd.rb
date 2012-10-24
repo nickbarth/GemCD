@@ -1,4 +1,4 @@
-class Gem::Commands::OpenCommand < Gem::Command
+class Gem::Commands::CdCommand < Gem::Command
   def initialize
     super 'cd', "Navigates to the gem's source directory."
   end
