@@ -1,11 +1,10 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gemcd/version'
 
 Gem::Specification.new do |gem|
   gem.name          = 'gemcd'
   gem.date          = '2012-10-22'
-  gem.version       = GemCd::VERSION
+  gem.version       = '0.0.5'
   gem.authors       = ['Nick Barth']
   gem.email         = ['nick@nickbarth.ca']
   gem.summary       = 'A Ruby Gem for navigating your Gem directory.'

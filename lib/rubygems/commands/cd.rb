@@ -4,7 +4,7 @@ class Gem::Commands::CdCommand < Gem::Command
   end
 
   def arguments
-    "GEM       gem name"
+    "GEM       gem to open"
   end
 
   def execute
