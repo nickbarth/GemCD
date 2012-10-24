@@ -1,6 +1,6 @@
 class Gem::Commands::CdCommand < Gem::Command
   def initialize
-    super 'cd', "Navigates to the gem's source directory."
+    super 'cd', "CD to the gem directory."
   end
 
   def arguments
@@ -11,6 +11,6 @@ class Gem::Commands::CdCommand < Gem::Command
     gem = options[:args].first
     raise Gem::CommandLineError, 'Usage: gem cd GEM' unless gem
     Dir.chdir("#{Gem::Specification.find_by_name(gem).full_gem_path}")
-    exec '$0'
+    exec ENV['SHELL']
   end
 end
