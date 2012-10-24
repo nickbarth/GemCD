@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |gem|
   gem.name          = 'gemcd'
   gem.date          = '2012-10-22'
-  gem.version       = '0.0.6'
+  gem.version       = '0.0.7'
   gem.authors       = ['Nick Barth']
   gem.email         = ['nick@nickbarth.ca']
   gem.summary       = 'A Ruby Gem for navigating your Gem directory.'
